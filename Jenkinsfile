@@ -17,6 +17,11 @@ pipeline {
                 echo 'Deploy package'
             }
         }
+        stage('4-deploy2') {
+            steps {
+                echo 'Deploy2 package'
+            }
+        }
     }
     
     post {
